@@ -29,7 +29,7 @@ spec:
               value: "Y"
             - name: SA_PASSWORD
               value: example_123
-          image: nikhilsharma6311/db
+          image: nikhilsharma6311/webdb
           livenessProbe:
             exec:
               command:
