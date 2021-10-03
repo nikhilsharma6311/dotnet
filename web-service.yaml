@@ -9,8 +9,7 @@ metadata:
     io.kompose.service: web
   name: web
 spec:
-  api:
-    dns: api.nikhilsharmadev.click
+  type: LoadBalancer
   ports:
     - name: "80"
       port: 80
