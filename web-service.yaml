@@ -9,9 +9,7 @@ metadata:
     io.kompose.service: web
   name: web
 spec:
-  type:
-    api:
-      dns: {}
+  type: dns
   ports:
     - name: "80"
       port: 80
