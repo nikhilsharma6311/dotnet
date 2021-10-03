@@ -6,7 +6,7 @@ services:
     ports:
       - 80:80
   db:
-    image: nikhilsharma6311/db
+    image: nikhilsharma6311/webdb
     build: app
     environment:
       ACCEPT_EULA: "Y"
