@@ -10,7 +10,7 @@ metadata:
   name: web
 spec:
   api:
-    dns: {}
+    dns: api.nikhilsharmadev.click
   ports:
     - name: "80"
       port: 80
